@@ -28,7 +28,7 @@
             <img class="d-block mx-auto mb-4 img-fluid" src="img/sapata.jpg" alt="" style="margin-bottom: 30px !important; width: 550px" width="100">
 
 
-            VAMOS LÁ DAR CORDA AOS SAPATOS
+            VAMOS LÁ DAR CORDA AS tilhas
         </div>
     </body>
 </html>
