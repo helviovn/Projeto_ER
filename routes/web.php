@@ -19,3 +19,10 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('sidebar');});
 
+Route::get('/radio', function () {
+    return view('radio');});
+
+Route::get('/media', function () {
+    return view('media');});
+
+
