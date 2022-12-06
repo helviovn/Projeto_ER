@@ -19,3 +19,5 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('sidebar');});
 
+Route::get('/homepage', function () {
+    return view('homepage');});

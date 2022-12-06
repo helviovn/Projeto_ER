@@ -15,7 +15,7 @@
         <ul class="nav-links">
             <li><a href="#"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/homepage"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -23,13 +23,10 @@
             <div class="active"></div>
         </ul>
     </div>
-    <i class="fa-solid fa-map-location-dot" style="position: absolute"></i>
     <div class="container">
         <div class="cold-md-6">
             <div class="ecra">
-                <h1>AAAAAAAAAAAAAAAAAAABBBBBBBBB-------------------Baaaaaaaaaaaaaaaaaa</h1>
-                <h1>AAAAAAAAAAAAAAAAAAABBBBBBBBBBaaaaaaaaaaaaaaa</h1>
-                <h1>AAAAAAAAAAAAAAAAAAABBBBBBBBBBaaaaaaaaaaaaaa</h1>
+                <i class="fa-solid fa-map-location-dot fa-5x" style="left: 80%; position: relative; color: coral"></i>
             </div>
         </div>
     </div>
