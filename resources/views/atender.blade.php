@@ -22,6 +22,7 @@
                     <p>Acidente</p></a></li>
             <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
                     <p>Atender Chamada</p></a></li>
+
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -29,43 +30,38 @@
             <div class="active"></div>
         </ul>
     </div>
-    <div class="container">
-        <div class="ecra">
 
-                <h1 style="text-align: center">Bem vindo de volta<br>Faça login</h1>
-
-            <br><br><br><br><br><br><br><br>
-            <div class="row">
-                <div class="col">
-                    <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/helvio"></a>
-                        <h3>Hélvio</h3>
+    <div class="ecra">
+        <div class="container">
+            <div class="row" style="column-gap: 40px">
+                <div class="col-2">
+                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+                    <br>
+                    <h3 style="text-align: center">Rádio</h3>
+                    <br><br><br><br>
+                    <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
+                    <br>
+                    <h3 style="text-align: center; opacity: .5">Media</h3>
+                    <br><br><br><br><br>
+                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
+                    <br>
+                    <h3 style="text-align: center">Definições</h3>
+                </div>
+                <div class="col" style="padding-right: 11%">
+                    <div class="row">
+                        <h3 style="text-align: center"></h3>
+                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                        <br><br><br><br><br><br><br><br>
+                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 24%">
+                        <img src="img/Mega.png" class="radios" alt="" style="width: 24%">
+                        <img src="img/RR.png" class="radios" alt="" style="width: 24%">
+                        <img src="img/Comercial.png" class="radios" alt="" style="width: 24%">
                     </div>
                 </div>
-                <div class="col">
-                    <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/artur"></a>
-                        <h3>Artur</h3>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/gustavo"></a>
-                        <h3>Gustavo</h3>
-                    </div>
-                </div>
-                <div class="col">
-                    <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/pedro"></a>
-                        <h3>Pedro</h3>
-                    </div>
-                </div>
-
             </div>
-
-
         </div>
     </div>
+
 </div>
 </body>
 

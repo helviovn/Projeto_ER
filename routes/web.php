@@ -45,3 +45,14 @@ Route::get('/nav2', function () {
 
 
 
+Route::get('/radio', function () {
+    return view('radio');});
+
+Route::get('/media', function () {
+    return view('media');});
+
+Route::get('/media2', function () {
+    return view('media2');});
+
+Route::get('/atender', function () {
+    return view('atender');});
