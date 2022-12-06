@@ -25,4 +25,8 @@ Route::get('/radio', function () {
 Route::get('/media', function () {
     return view('media');});
 
+Route::get('/media2', function () {
+    return view('media2');});
 
+Route::get('/atender', function () {
+    return view('atender');});

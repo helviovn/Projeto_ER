@@ -22,6 +22,7 @@
                     <p>Acidente</p></a></li>
             <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
                     <p>Atender Chamada</p></a></li>
+
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>

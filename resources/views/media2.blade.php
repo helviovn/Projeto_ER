@@ -34,13 +34,13 @@
         <div class="container">
             <div class="row" style="column-gap: 40px">
                 <div class="col-2">
-                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+                    <a class="fa-solid fa-radio fa-4x" href="/radio" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
-                    <h3 style="text-align: center">Rádio</h3>
+                    <h3 style="text-align: center; opacity: .5">Rádio</h3>
                     <br><br><br><br>
-                    <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
+                    <i class="fa-solid fa-music fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
                     <br>
-                    <h3 style="text-align: center; opacity: .5">Media</h3>
+                    <h3 style="text-align: center">Media</h3>
                     <br><br><br><br><br>
                     <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
                     <br>
@@ -50,11 +50,8 @@
                     <div class="row">
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
-                        <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 24%">
-                        <img src="img/Mega.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/RR.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 24%">
+                        <br><br><br>
+                        <img src="img/Spotify2.png" class="media" alt="" style="width: 100%">
                     </div>
                 </div>
             </div>
