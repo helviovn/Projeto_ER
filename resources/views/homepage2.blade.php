@@ -1,6 +1,5 @@
 <!DOCTYPE html>
 <html lang="">
-
 <head>
     <meta name="viewport" content="width=device-width, initial.scale=1.0">
     <title>Side Bar</title>
@@ -8,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
-<body onload="realtimeClock()">
+<body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
         <a href="#" class="logo">
@@ -29,7 +28,7 @@
         <div class="ecra">
             <div class="container">
                 <div class="row">
-                    <div class="col-2"style="margin-top:2.2%">
+                    <div class="col-2">
                         <i class="fa-solid fa-wifi fa-3x"></i>
                         <br><br><br>
                         <i class="fa-solid fa-phone fa-5x"></i>
@@ -67,36 +66,8 @@
 
                     <div class="col-2">
                         <div>
-                            <h2 id="clock" style="margin-top: 20%"></h2>
-                            <script>
-                                function realtimeClock() {
-                                    var rtClock = new Date();
-
-                                    var hours = rtClock.getHours();
-                                    var minutes = rtClock.getMinutes();
-                                    var seconds = rtClock.getSeconds();
-
-                                    var amPm = ( hours > 12 ) ? "PM" : "AM";
-
-                                    hours= (hours > 12) ? hours - 12 : hours;
-
-                                    hours = ("0" + hours).slice(-2);
-                                    minutes = ("0" + minutes).slice(-2)
-                                    seconds = ("0" + seconds).slice(-2);
-
-                                    document.getElementById('clock').innerHTML = hours + " : " + minutes + " : " + seconds + " " + amPm;
-
-                                    var t = setTimeout(realtimeClock, 500);
-                                }
-                            </script>
-
                             <br>
-
-                            <br>
-                            <img src="img/tempo.png" class="tempo" alt="" style="width: 100%; border-radius: 20px">
-
-                            <br>
-                            <div class="row" style="margin-top: 30%">
+                            <div class="row" style="margin-top: 15%">
                                 <div class="col">
                                     <i class="fa-solid fa-gear fa-3x"></i>
                                 </div>
@@ -106,6 +77,11 @@
                                     </div>
                                 </div>
                             </div>
+
+                            <br>
+                            <br>
+                            <br>
+                            <img src="img/tempo.png" class="tempo" alt="" style="width: 100%; border-radius: 20px">
                         </div>
                     </div>
                 </div>
