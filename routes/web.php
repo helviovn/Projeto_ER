@@ -19,3 +19,5 @@ Route::get('/welcome', function () {
 Route::get('/', function () {
     return view('sidebar');});
 
+Route::get('/bar', function () {
+    return view('bar');});

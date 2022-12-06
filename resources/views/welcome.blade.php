@@ -29,6 +29,10 @@
 
 
             VAMOS LÁ DAR CORDA AS tilhas
+
+
         </div>
+
+    @include('sidebar')
     </body>
 </html>
