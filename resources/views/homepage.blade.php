@@ -42,8 +42,8 @@
                         <div >
                             <br>
                             <div class="row" style="background-color: #1a202c; border-radius: 60px">
-                                <div class="row">      ....</div>
-                                <div class="col">
+                                <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
+                                <div class="col" style="margin-left: 10%">
                                     <i class="fa-solid fa-screwdriver-wrench fa-3x" style="color: white"></i>
                                 </div>
                                 <div class="col">
@@ -55,7 +55,7 @@
                                 <div class="col">
                                     <i class="fa-solid fa-ellipsis fa-3x" style="color: white"></i>
                                 </div>
-                                <div class="row">      ....</div>
+                                <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
                             </div>
                         </div>
                         <br>
@@ -67,7 +67,17 @@
                     <div class="col-2">
                         <div>
                             <br>
-                            <i class="fa-solid fa-gear fa-6x"></i>
+                            <div class="row" style="margin-top: 15%">
+                                <div class="col">
+                                    <i class="fa-solid fa-gear fa-3x"></i>
+                                </div>
+                                <div class="col">
+                                    <div class="col">
+                                        <i class="fa-solid fa-grip fa-3x"></i>
+                                    </div>
+                                </div>
+                            </div>
+
                             <br>
                             <br>
                             <br>
