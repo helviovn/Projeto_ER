@@ -10,15 +10,17 @@
     <div class="caixote">
 
             <div class="box">
+
                 <label>
-                    <input type="range" class="range" value="23"  min="15" max="28" onmousemove="rangeSlider(this.value)">
-                    <span class="rangeValue"> 0 </span>
+                    <input type="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
                 </label>
+                <span class="rangeValue" id="rangeValue">24 ºC </span>
+
             </div>
 
             <script>
                 function rangeSlider(value){
-                    document.getElementById('rangeValue').innerHTML = value;
+                    document.getElementById('rangeValue').innerHTML = value+" ºC" ;
                 }
             </script>
     </div>
