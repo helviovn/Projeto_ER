@@ -9,6 +9,8 @@
     width: 100%;
     height: 100vh;
     background: #e2e9f7;
+    position: fixed;
+    background-position: center;
 }
 
 .side-nav{
@@ -19,6 +21,7 @@
     top: 0;
     left: 0;
     padding: 20px 30px;
+    display: inline-block;
 
 }
 
@@ -30,18 +33,20 @@
 }
 
 .ecra{
-    position: fixed;
+    /*position: fixed; */
     /* padding: 10% 26.7%; */
     /* left: 0; */
     /* top: 0; */
     /* width: 122.2%; */
     /* height: 100.3%; */
     /* margin: 10% 26.7%; */
-    margin-top: 10.7%;
+    margin-top: 7%;
     margin-bottom: 43%;
     margin-left: 20.8%;
     margin-right: 5.5%;
 }
+
+
 
 .logo-img{
     width: 35%;
