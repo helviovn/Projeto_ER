@@ -72,5 +72,13 @@ Route::get('/media2', function () {
 
 Route::get('/atender', function () {
     return view('atender');});
+
 Route::get('/homepage', function () {
     return view('homepage');});
+
+Route::get('/veiculo', function () {
+    return view('veiculo');});
+
+Route::get('/avaria', function () {
+    return view('avaria');});
+

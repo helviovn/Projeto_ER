@@ -20,9 +20,10 @@
         <ul class="nav-links">
             <li><a href="#"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -53,10 +54,10 @@
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 21%">
+                        <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px; width: 21%">
                         <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
                         <img src="img/RR.png" class="radios" alt="" style="width: 21%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 21%">
+                        <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px; width: 21%">
                     </div>
                 </div>
             </div>

@@ -28,10 +28,10 @@
         <ul class="nav-links">
             <li><a data-toggle="modal" data-target="#exampleModalCenter1" href="#"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i
-                        class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -74,6 +74,7 @@
             </div>
         </div>
     </div>
+</div>
 </div>
 </body>
 
