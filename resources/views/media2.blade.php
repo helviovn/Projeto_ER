@@ -51,7 +51,7 @@
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br>
-                        <img src="img/Spotify2.png" class="media" alt="" style="width: 90%">
+                        <img src="img/Spotify2.png" class="media" alt="" style="border-radius: 20px;width: 90%">
                     </div>
                 </div>
             </div>

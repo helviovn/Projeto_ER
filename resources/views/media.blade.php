@@ -52,7 +52,7 @@
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br>
                         <a href="/media2" class="logo">
-                            <img src="img/Spotify.png" class="media" alt="" style="width: 90%">
+                            <img src="img/Spotify.png" class="media" alt="" style="border-radius: 20px;width: 90%">
                         </a>
                     </div>
                 </div>
