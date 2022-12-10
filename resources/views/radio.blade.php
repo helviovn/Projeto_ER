@@ -51,10 +51,10 @@
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 20px; width: 21%">
+                        <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px; width: 21%">
                         <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
                         <img src="img/RR.png" class="radios" alt="" style="width: 21%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 20px; width: 21%">
+                        <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px; width: 21%">
                     </div>
                 </div>
             </div>
