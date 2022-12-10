@@ -31,12 +31,9 @@
         <div class="container">
 
             <div class="row">
-                <h1 style="text-align: center">Menu navegação</h1>
-                <br><br><br><br><br><br>
-                <div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div>
-                <div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div><div class=""></div>
-
-                <div class="col-6">
+                    <h1 style="padding-left: 28%">Menu navegação</h1>
+                <br><br><br><br>
+                <div class="col-5">
                     <i class="fa-solid fa-6x fa-map-pin"></i>
                     <i class="fa-solid fa-cars"></i>
                     <h3 style="text-align: center">Partida</h3>
@@ -45,14 +42,14 @@
                         <input selected stype="text" class="form-control" placeholder="Localização atual"
                                aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
-                    <br><br><br>
+                    <br>
                     <i class="fa-solid fa-car fa-6x"></i>
                     <div class="form-check form-switch">
                         <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
                         <label class="form-check-label" for="flexSwitchCheckChecked">Rota menos congestionada</label>
                     </div>
                 </div>
-                <div class="col-6">
+                <div class="col-5">
                     <i class="fa-solid fa-6x fa-location-crosshairs "></i>
                     <h3 style="text-align: center">Destino</h3>
                     <div class="input-group flex-nowrap">
@@ -60,7 +57,7 @@
                         <input selected stype="text" class="form-control" placeholder="Ex: Universidade da Madeira"
                                aria-label="Username" aria-describedby="addon-wrapping">
                     </div>
-                    <br><br><br>
+                    <br>
                     <i class="fa-solid fa-dollar-sign fa-6x"></i>
                     <div class="form-check form-switch">
 
@@ -69,11 +66,12 @@
                     </div>
                 </div>
             </div>
-            <br><br><br>
+            <br>
+            <div class="col-10">
             <a href="/nav2">
                 <button type="button" class="btn btn-outline-success">Iniciar viagem</button>
             </a>
-
+            </div>
 
 
         </div>

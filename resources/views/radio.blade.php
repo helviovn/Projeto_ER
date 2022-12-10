@@ -34,20 +34,22 @@
         <div class="container">
             <div class="row" style="column-gap: 40px">
                 <div class="col-2">
-                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
-                    <br>
-                    <h3 style="text-align: center">Rádio</h3>
                     <br><br>
+                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+                    <br><br>
+                    <h3 style="text-align: center">Rádio</h3>
+                    <br>
                     <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
                     <h3 style="text-align: center; opacity: .5">Media</h3>
-                    <br><br><br>
+                    <br><br>
                     <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
                     <br>
                     <h3 style="text-align: center">Definições</h3>
                 </div>
                 <div class="col" style="padding-right: 11%">
                     <div class="row">
+                        <br><br>
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br><br><br><br><br>

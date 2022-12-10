@@ -34,10 +34,10 @@
                         <i class="fa-solid fa-wifi fa-3x"></i>
                         <br><br><br>
                         <i class="fa-solid fa-phone fa-5x"></i>
-                        <br><br><br><br>
-                        <i class="fa-solid fa-music fa-5x"></i>
-                        <br><br><br><br>
-                        <i class="fa-solid fa-map-location fa-5x"></i>
+                        <br><br><br>
+                        <a class="fa-solid fa-music fa-5x" href="/media" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                        <br><br><br>
+                        <a class="fa-solid fa-map-location fa-5x" href="/nav" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                     </div>
 
                     <div class="col-6">
