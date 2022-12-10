@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');});
+//Route::get('/welcome', function () {
+   // return view('welcome');});
 
 Route::get('/', function () {
     return view('sidebar');});
@@ -40,8 +40,8 @@ Route::get('/nav', function () {
 Route::get('/nav2', function () {
     return view('navegacao2');});
 
-Route::get('/homepage', function () {
-    return view('homepage');});
+//Route::get('/homepage', function () {
+  //  return view('homepage');});
 
 
 
@@ -59,31 +59,7 @@ Route::get('/media2', function () {
 
 Route::get('/atender', function () {
     return view('atender');});
-//Rotas para login
-Route::get('/helvio', function () {
-    return view('helvio');});
-
-Route::get('/artur', function () {
-    return view('artur');});
-
-Route::get('/gustavo', function () {
-    return view('gustavo');});
-
-Route::get('/pedro', function () {
-    return view('pedro');});
-
-
-
-//Rotas para navegacao
-Route::get('/nav', function () {
-    return view('navegacao');});
-
-Route::get('/nav2', function () {
-    return view('navegacao2');});
-
-
-
-
+//Rotas
 
 Route::get('/radio', function () {
     return view('radio');});

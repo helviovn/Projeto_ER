@@ -20,7 +20,6 @@
         <ul class="nav-links">
             <li><a href="#"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a href="/homepage"><p>Acidente</p></a></li>
             <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
                     <p>Atender Chamada</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -30,11 +29,12 @@
             <div class="active"></div>
         </ul>
     </div>
-    <i class="fa-solid fa-map-location-dot" style="position: absolute"></i>
     <div class="container">
         <div class="ecra">
+            <br><br><br><br>
+            <h1 style="text-align: center">Bem vindo de volta<br>Faça login</h1>
 
-                <h1 style="text-align: center">Bem vindo de volta<br>Faça login</h1>
+
 
             <br><br><br><br><br><br><br><br>
             <div class="row">
@@ -64,13 +64,6 @@
                 </div>
 
             </div>
-
-
-        <div class="cold-md-6">
-            <div class="ecra">
-                <i class="fa-solid fa-map-location-dot fa-5x" style="left: 80%; position: relative; color: coral"></i>
-            </div>
-        </div>
     </div>
 </div>
 </body>
