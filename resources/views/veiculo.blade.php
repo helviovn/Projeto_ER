@@ -37,7 +37,8 @@
                 <div class="col-6" style="padding-right: 11%">
                     <br>
                     <div class="row">
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                        <a  style="color: inherit" href="/homepage" class="fa-solid fa-arrow-left fa-2x"></a>
+                        <br><br>
                         <h2 style="text-align: left">Estado dos componentes</h2>
                         <br><br>
                         <a class="logo">

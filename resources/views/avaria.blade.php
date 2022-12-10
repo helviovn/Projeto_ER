@@ -37,7 +37,8 @@
                 <div class="col-6" style="padding-right: 11%">
                     <br>
                     <div class="row">
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                        <a  style="color: inherit" href="/homepage" class="fa-solid fa-arrow-left fa-2x"></a>
+                        <br><br>
                         <h2 style="text-align: left">Estado dos componentes</h2>
                         <br><br>
                         <a class="logo">
@@ -54,7 +55,7 @@
                     <div class="veiculo veiculo-1">Óleo</div>
                     <br><br>
                     <div class="veiculo veiculo-1">
-                        <p style="color: red" class="fa-solid fa-triangle-exclamation"></p>
+                        <p style="color: red" class="fa-solid fa-triangle-exclamation fa-2x"></p>
                         Pneus
                     </div>
                     <br><br>
