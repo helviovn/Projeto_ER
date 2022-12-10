@@ -21,7 +21,7 @@
             <li><a href="#"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
             <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
-                    <p>Atender Chamada</p></a></li>
+                    <p>Chamada</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -37,11 +37,11 @@
                     <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
                     <br>
                     <h3 style="text-align: center">Rádio</h3>
-                    <br><br><br><br>
+                    <br><br>
                     <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
                     <h3 style="text-align: center; opacity: .5">Media</h3>
-                    <br><br><br><br><br>
+                    <br><br><br>
                     <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
                     <br>
                     <h3 style="text-align: center">Definições</h3>
@@ -51,10 +51,10 @@
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 24%">
-                        <img src="img/Mega.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/RR.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 24%">
+                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 21%">
+                        <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
+                        <img src="img/RR.png" class="radios" alt="" style="width: 21%">
+                        <img src="img/Comercial.png" class="radios" alt="" style="width: 21%">
                     </div>
                 </div>
             </div>
