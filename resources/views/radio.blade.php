@@ -35,7 +35,7 @@
         <div class="container">
             <div class="row" style="column-gap: 40px">
                 <div class="col-2">
-                    <br><br>
+
                     <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
                     <br><br>
                     <h3 style="text-align: center">Rádio</h3>
@@ -49,16 +49,17 @@
                     <h3 style="text-align: center">Definições</h3>
                 </div>
                 <div class="col" style="padding-right: 11%">
-                    <div class="row">
                         <br><br>
                         <h3 style="text-align: center"></h3>
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
-                        <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px; width: 21%">
-                        <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
-                        <img src="img/RR.png" class="radios" alt="" style="width: 21%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px; width: 21%">
-                    </div>
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/homepage" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                        <br><br><br><br>
+                        <div class="row">
+                            <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px; width: 21%">
+                            <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
+                            <img src="img/RR.png" class="radios" alt="" style="width: 21%">
+                            <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px; width: 21%">
+                        </div>
+
                 </div>
             </div>
         </div>

@@ -59,8 +59,6 @@
 
             <div class="row" style="column-gap: 40px">
                 <div class="col-2">
-                    <br>
-
                     <a  data-toggle="modal" data-target="#exampleModalCenter" class="fa-solid fa-plus fa-4x" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
                     <h3 style="text-align: center; opacity: .5">Adicionar paragem</h3>
@@ -76,7 +74,7 @@
                 <div class="col" style="padding-right: 11%">
                     <div class="row">
                         <h3 style="text-align: center"></h3>
-                        <br><br>
+                        <br>
                         <a class="fa-solid fa-arrow-left fa-2x "href="/nav"></a>
                         <br><br><br>
                         <img src="img/gps.png" class="media" alt="" style="width: 90%; border-radius: 30px">

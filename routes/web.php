@@ -40,8 +40,8 @@ Route::get('/nav', function () {
 Route::get('/nav2', function () {
     return view('navegacao2');});
 
-Route::get('/homepage', function () {
-    return view('homepage');});
+//Route::get('/homepage', function () {
+  //  return view('homepage');});
 
 
 
@@ -61,10 +61,10 @@ Route::get('/atender', function () {
     return view('atender');});
 //Rotas para login
 Route::get('/helvio', function () {
-    return view('helvio');});
+    return view('homepage');});
 
 Route::get('/artur', function () {
-    return view('artur');});
+    return view('homepage2');});
 
 Route::get('/gustavo', function () {
     return view('gustavo');});

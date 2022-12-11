@@ -35,45 +35,40 @@
             <div class="row" style="column-gap: 40px">
                 <div class="col-1">
                     <h3 style="text-align: center"></h3>
-                    <i class="fa-solid fa-arrow-left fa-2x"></i>
+                    <a class="fa-solid fa-arrow-left fa-2x" href="/homepage" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                 </div>
                 <div class="col-2" style="margin-left: -6%">
-                    <img class="radios" src="img/contactos.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto">
                     <br>
+                    <img class="radios" src="img/contactos.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto">
                     <h3 style="text-align: center">Contactos</h3>
                     <br><br>
-                    <img class="radios" src="img/car.png" alt="" style="display: block; margin-left: auto; width: 80%; margin-right: auto"></img>
-                    <br>
+                    <a href="/veiculo"> <img class="radios"  src="img/car.png" alt="" style="display: block; margin-left: auto; width: 80%; margin-right: auto"></img></a>
+
                     <h3 style="text-align: center">Veículo</h3>
                     <br><br>
-                    <img class="radios" src="img/radio.png" alt="" style="display: block; margin-left: auto; width: 55%; margin-right: auto"></img>
-                    <br>
+                    <a href="/radio"> <img class="radios" src="img/radio.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img></a>
                     <h3 style="text-align: center">Radio</h3>
                 </div>
                 <div class="col-2">
-                    <img class="radios" src="img/musica.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
                     <br>
+                    <a href="/media"> <img class="radios" src="img/musica.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img></a>
                     <h3 style="text-align: center">Música</h3>
                     <br><br>
                     <img class="radios" src="img/gpsapple.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
-                    <br>
                     <h3 style="text-align: center">Navegação</h3>
                     <br><br>
-                    <img class="radios" src="img/minecraft.png" alt="" style="display: block; margin-left: auto; margin-top: 10%; width: 47%; margin-right: auto"></img>
-                    <br>
+                    <img class="radios" src="img/minecraft.png" alt="" style="display: block; margin-left: auto; margin-top: 10%; width: 40%; margin-right: auto"></img>
                     <h3 style="text-align: center">Minecraft</h3>
                 </div>
                 <div class="col-2">
-                    <img class="radios" src="img/twitter.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img>
                     <br>
+                    <img class="radios" src="img/twitter.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img>
                     <h3 style="text-align: center">Twitter</h3>
                     <br><br>
                     <img class="radios" src="img/discord.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
-                    <br>
                     <h3 style="text-align: center">Discord</h3>
                     <br>
                     <img class="radios" src="img/youtube.png" alt="" style="display: block; margin-left: auto; margin-top: 5%; width: 100%; margin-right: auto"></img>
-
                     <h3 style="text-align: center">Youtube</h3>
                 </div>
                 <div class="col-2">

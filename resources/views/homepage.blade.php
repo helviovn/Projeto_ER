@@ -60,7 +60,7 @@
                                     <i class="fa-sharp fa-solid fa-temperature-full fa-3x" style="color: white"></i>
                                 </div>
                                 <div class="col">
-                                    <i class="fa-solid fa-ellipsis fa-3x" style="color: white"></i>
+                                    <a class="fa-solid fa-ellipsis fa-3x" href="/veiculo" style="color:white; display: block; width: 50%; margin-right: auto;"></a>
                                 </div>
                                 <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
                             </div>
@@ -108,7 +108,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="col">
-                                        <i class="fa-solid fa-grip fa-3x"></i>
+                                        <a class="fa-solid fa-grip fa-3x" href="/apps" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                                     </div>
                                 </div>
                             </div>

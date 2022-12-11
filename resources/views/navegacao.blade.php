@@ -35,7 +35,17 @@
         <div class="container">
 
             <div class="row">
-                    <h1 style="padding-left: 28%;padding-top: 6%">Menu navegação</h1>
+                <div class="row">
+                    <div class="col-3">
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/homepage" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                    </div>
+                    <div class="col">
+                        <h1 style="padding-top: 6%">Menu navegação</h1>
+                    </div>
+                    <div class="col">
+                    </div>
+                </div>
+
 
                 <br><br><br><br><br><br><br>
                 <div class="col-5">
