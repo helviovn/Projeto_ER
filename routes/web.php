@@ -98,3 +98,9 @@ Route::get('/atender', function () {
     return view('atender');});
 Route::get('/homepage', function () {
     return view('homepage');});
+Route::get('/homepage2', function () {
+    return view('homepage2');});
+
+
+Route::get('/apps', function () {
+    return view('apps');});

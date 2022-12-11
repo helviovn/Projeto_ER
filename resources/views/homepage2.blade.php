@@ -7,7 +7,7 @@
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <script src="https://kit.fontawesome.com/c4254e24a8.js" crossorigin="anonymous"></script>
 </head>
-<body>
+<body onload="realtimeClock()">
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
         <a href="#" class="logo">
@@ -32,11 +32,11 @@
                     <div class="col-2">
                         <i class="fa-solid fa-wifi fa-3x"></i>
                         <br><br><br>
+                        <i class="fa-solid fa-map-location fa-5x"></i>
+                        <br><br><br><br>
                         <i class="fa-solid fa-phone fa-5x"></i>
                         <br><br><br><br>
-                        <i class="fa-solid fa-music fa-5x"></i>
-                        <br><br><br><br>
-                        <i class="fa-solid fa-map-location fa-5x"></i>
+                        <i class="fa-solid fa-radio fa-5x"></i>
                     </div>
 
                     <div class="col-6">
@@ -44,31 +44,64 @@
                             <br>
                             <div class="row" style="background-color: #1a202c; border-radius: 60px">
                                 <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
-                                <div class="col" style="margin-left: 10%">
-                                    <i class="fa-solid fa-screwdriver-wrench fa-3x" style="color: white"></i>
+                                <div class="col" style="margin-left: 5%">
+                                    <img src="img/dillaz.jpg" style="width: 66%"></img>
                                 </div>
-                                <div class="col">
-                                    <i class="fa-solid fa-car-battery fa-3x" style="color: white"></i>
+                                <div class="col" style="margin-left: -5.6%">
+                                    <div class="row" style="color: white">Mo Boy</div>
+                                    <div class="row" style="color: grey">Dillaz</div>
                                 </div>
-                                <div class="col">
-                                    <i class="fa-sharp fa-solid fa-temperature-full fa-3x" style="color: white"></i>
+                                <div class="col" style="margin-top: 1.5%">
+                                    <i class="fa-solid fa-less-than fa-2x" style="color: white"></i>
                                 </div>
-                                <div class="col">
-                                    <i class="fa-solid fa-ellipsis fa-3x" style="color: white"></i>
+                                <div class="col" style="margin-top: 1.5%">
+                                    <i class="fa-solid fa-pause fa-2x" style="color: white"></i>
+                                </div>
+                                <div class="col" style="margin-top: 1.5%">
+                                    <i class="fa-solid fa-greater-than fa-2x" style="color: white"></i>
+                                </div>
+                                <div class="col" style="margin-top: 1.5%">
+                                    <i class="fa-solid fa-ellipsis fa-2x" style="color: white"></i>
                                 </div>
                                 <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
                             </div>
                         </div>
-                        <br>
-                        <br>
-                        <img src="img/uni.png" class="universidade" alt="" style="width: 100%">
+                        <img src="img/carro.png" class="carro" alt="" style="width: 100%">
                     </div>
 
 
                     <div class="col-2">
                         <div>
+                            <h2 id="clock" style="margin-top: 20%"></h2>
+                            <script>
+                                function realtimeClock() {
+                                    var rtClock = new Date();
+
+                                    var hours = rtClock.getHours();
+                                    var minutes = rtClock.getMinutes();
+                                    var seconds = rtClock.getSeconds();
+
+                                    var amPm = ( hours > 12 ) ? "PM" : "AM";
+
+                                    hours= (hours > 12) ? hours - 12 : hours;
+
+                                    hours = ("0" + hours).slice(-2);
+                                    minutes = ("0" + minutes).slice(-2)
+                                    seconds = ("0" + seconds).slice(-2);
+
+                                    document.getElementById('clock').innerHTML = hours + " : " + minutes + " : " + seconds + " " + amPm;
+
+                                    var t = setTimeout(realtimeClock, 500);
+                                }
+                            </script>
+
                             <br>
-                            <div class="row" style="margin-top: 15%">
+
+                            <br>
+                            <img src="img/calendario.png" class="calendario" alt="" style="width: 100%; border-radius: 20px">
+
+                            <br>
+                            <div class="row" style="margin-top: 30%">
                                 <div class="col">
                                     <i class="fa-solid fa-gear fa-3x"></i>
                                 </div>
@@ -78,11 +111,6 @@
                                     </div>
                                 </div>
                             </div>
-
-                            <br>
-                            <br>
-                            <br>
-                            <img src="img/tempo.png" class="tempo" alt="" style="width: 100%; border-radius: 20px">
                         </div>
                     </div>
                 </div>
