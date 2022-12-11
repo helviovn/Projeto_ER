@@ -11,9 +11,9 @@
 
             <div class="box">
 
-                <label>
-                    <input type="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
-                </label>
+
+                    <input type="range" id="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
+
                 <span class="rangeValue" id="rangeValue">24 ºC </span>
 
             </div>
