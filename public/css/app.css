@@ -13,6 +13,14 @@
     background-position: center;
 }
 
+.headeraceidente{
+    width: 100%;
+    height: 100vh;
+    background: #8c0000;
+    position: fixed;
+    background-position: center;
+}
+
 .side-nav{
     width: 15%;
     height: 100%;
@@ -46,7 +54,20 @@
     margin-right: 5.5%;
 }
 
+.botaoACI{
 
+
+    border: 5px solid yellow;
+    outline: 0;
+    display: inline-block;
+    padding: 8px;
+    color: white;
+    background-color: #ff0000;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 29px;
+}
 
 .logo-img{
     width: 35%;
@@ -172,3 +193,128 @@ button:hover, a:hover {
 }
 
 
+
+
+
+/*contactos*/
+.headerXX{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+    padding: 2em;
+    align-items: center;
+}
+
+.contacts-library{
+    background: #9ca4ad;
+}
+
+
+i{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.contact-name{
+
+    color: black;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+
+}
+
+hr.new5 {
+    border: 2px solid black;
+}
+
+.list__item{
+    list-style: none;
+    padding: 1em;
+}
+
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: #45474d;
+}
+
+
+.space{
+    margin-right: 10px;
+}
+.icon-gradient{
+    background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+    border-radius: 100px;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+.contactos{
+    width:83%;
+}
+
+/* --------------------------------------------------------- */
+
+
+/* CONTADOR*/
+
+.base-timer {
+    position: relative;
+    width: 200px;
+    height: 200px;
+}
+
+.base-timer__svg {
+    transform: scaleX(-1);
+}
+
+.base-timer__circle {
+    fill: none;
+    stroke: none;
+}
+
+.base-timer__path-elapsed {
+    stroke-width: 7px;
+    stroke: grey;
+}
+
+.base-timer__path-remaining {
+    stroke-width: 7px;
+    stroke-linecap: round;
+    transform: rotate(90deg);
+    transform-origin: center;
+    transition: 1s linear all;
+    fill-rule: nonzero;
+    stroke: currentColor;
+}
+
+.base-timer__path-remaining.green {
+    color: rgb(65, 184, 131);
+}
+
+.base-timer__path-remaining.orange {
+    color: orange;
+}
+
+.base-timer__path-remaining.red {
+    color: red;
+}
+
+.base-timer__label {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 48px;
+}

@@ -13,8 +13,8 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');});
+Route::get('/contactos', function () {
+    return view('contactos');});
 
 Route::get('/', function () {
     return view('sidebar');});
@@ -81,7 +81,8 @@ Route::get('/nav', function () {
 Route::get('/nav2', function () {
     return view('navegacao2');});
 
-
+Route::get('/acidente', function () {
+    return view('acidente');});
 
 
 
