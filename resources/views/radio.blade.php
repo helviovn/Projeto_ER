@@ -14,19 +14,19 @@
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <div class="active"></div>
+            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
         </ul>
     </div>
 
@@ -42,7 +42,7 @@
                     <br>
                     <h3 style="text-align: center; opacity: .5">Media</h3>
                     <br><br><br>
-                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
+                    <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes" style="color: black; display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
                     <br>
                     <h3 style="text-align: center">Definições</h3>
                 </div>
@@ -51,10 +51,10 @@
                         <h3 style="text-align: center"></h3>
                         <i class="fa-solid fa-arrow-left fa-2x"></i>
                         <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 21%">
+                        <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px;width: 21%">
                         <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
                         <img src="img/RR.png" class="radios" alt="" style="width: 21%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 21%">
+                        <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px;width: 21%">
                     </div>
                 </div>
             </div>

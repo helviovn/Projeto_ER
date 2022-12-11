@@ -18,11 +18,11 @@
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
             <li><a href="#"><p></p></a></li>
             <li><a href="#"><p></p></a></li>
@@ -33,34 +33,63 @@
 
     <div class="ecra">
         <div class="container">
-            <div class="row" style="column-gap: 40px">
-                <div class="col-2">
-                    <a class="fa-solid fa-radio fa-4x" href="/radio" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
-                    <br>
-                    <h3 style="text-align: center; opacity: .5">Rádio</h3>
-                    <br><br>
-                    <i class="fa-solid fa-music fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
-                    <br>
-                    <h3 style="text-align: center">Media</h3>
-                    <br><br><br>
-                    <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes" style="color: black; display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
-                    <br>
-                    <h3 style="text-align: center">Definições</h3>
+
+            <div class="row">
+                <div class="row">
+                    <div class="col-3">
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/artur" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                    </div>
+                    <div class="col">
+                        <h1 style="padding-top: 6%">Menu navegação</h1>
+                    </div>
+                    <div class="col">
+                    </div>
                 </div>
-                <div class="col" style="padding-right: 11%">
-                    <div class="row">
-                        <h3 style="text-align: center"></h3>
-                        <a class="fa-solid fa-arrow-left fa-2x" href="/helvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
-                        <br><br><br><br>
-                        <a href="/media2" class="logo">
-                            <img src="img/Spotify.png" class="media" alt="" style="border-radius: 20px;width: 90%">
-                        </a>
+
+
+                <br><br><br><br><br><br><br>
+                <div class="col-5">
+                    <i class="fa-solid fa-4x fa-map-pin"></i>
+                    <i class="fa-solid fa-cars"></i>
+                    <h3 style="text-align: center">Partida</h3>
+
+                    <div class="input-group flex-nowrap">
+                        <input selected stype="text" class="form-control" placeholder="Localização atual"
+                               aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    <br>
+                    <i class="fa-solid fa-car fa-4x"></i>
+                    <div class="form-check form-switch">
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Rota menos congestionada</label>
+                    </div>
+                </div>
+                <div class="col-5">
+                    <i class="fa-solid fa-4x fa-location-crosshairs "></i>
+                    <h3 style="text-align: center">Destino</h3>
+                    <div class="input-group flex-nowrap">
+
+                        <input selected stype="text" class="form-control" placeholder="Ex: Universidade da Madeira"
+                               aria-label="Username" aria-describedby="addon-wrapping">
+                    </div>
+                    <br>
+                    <i class="fa-solid fa-dollar-sign fa-4x"></i>
+                    <div class="form-check form-switch">
+
+                        <input class="form-check-input" type="checkbox" id="flexSwitchCheckChecked" checked>
+                        <label class="form-check-label" for="flexSwitchCheckChecked">Rota mais económica</label>
                     </div>
                 </div>
             </div>
+            <br>
+            <div class="col-10">
+            <a href="/nav2_artur">
+                <button type="button" class="btn btn-outline-success">Iniciar viagem</button>
+            </a>
+            </div>
+
         </div>
     </div>
-
 </div>
 </body>
 

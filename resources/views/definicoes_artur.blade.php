@@ -14,55 +14,61 @@
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
 
     <div class="ecra">
-        <div class="container">
-            <div class="row" style="column-gap: 40px">
-                <div class="col-2">
-                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
-                    <br>
-                    <h3 style="text-align: center">Rádio</h3>
-                    <br><br><br><br>
-                    <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
-                    <br>
-                    <h3 style="text-align: center; opacity: .5">Media</h3>
-                    <br><br><br><br><br>
-                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
-                    <br>
-                    <h3 style="text-align: center">Definições</h3>
-                </div>
-                <div class="col" style="padding-right: 11%">
-                    <div class="row">
-                        <h3 style="text-align: center"></h3>
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
-                        <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 24%">
-                        <img src="img/Mega.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/RR.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 24%">
-                    </div>
-                </div>
+
+        <div class="row">
+            <div class="col">
+                <a class="fa-solid fa-arrow-left fa-2x" href="/artur" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
             </div>
         </div>
+        <br>
+        <h1 style="position: center">Definições</h1>
+        <hr>
+        <h4 style="position: center">Temperatura</h4>
+
+
+
+                    <input type="range" id="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
+
+                    <span class="rangeValue" id="rangeValue">24 ºC </span>
+
+        <br><br>
+        <hr>
+                <script>
+                    function rangeSlider(value){
+                        document.getElementById('rangeValue').innerHTML = value+" ºC" ;
+                    }
+                </script>
+        <h4 style="position: center">Volume</h4>
+        <br>
+
+        <i  class="fa-solid fa-volume-high fa-2x" style="margin-right: 10px; color: black"></i>
+        <label>
+            <input  type="range" class="range" value="0"  min="0" max="100" >
+        </label>
+        <hr>
+
     </div>
 
-</div>
+
+
 </body>
 
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -86,3 +92,4 @@
 </div>
 
 </html>
+

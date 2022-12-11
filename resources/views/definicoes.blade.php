@@ -32,36 +32,43 @@
     </div>
 
     <div class="ecra">
-        <div class="container">
-            <div class="row" style="column-gap: 40px">
-                <div class="col-2">
-                    <a class="fa-solid fa-radio fa-4x" href="/radio" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
-                    <br>
-                    <h3 style="text-align: center; opacity: .5">Rádio</h3>
-                    <br><br>
-                    <i class="fa-solid fa-music fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
-                    <br>
-                    <h3 style="text-align: center">Media</h3>
-                    <br><br><br>
-                    <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes" style="color: black; display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
-                    <br>
-                    <h3 style="text-align: center">Definições</h3>
-                </div>
-                <div class="col" style="padding-right: 11%">
-                    <div class="row">
-                        <h3 style="text-align: center"></h3>
-                        <a class="fa-solid fa-arrow-left fa-2x" href="/helvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
-                        <br><br><br><br>
-                        <a href="/media2" class="logo">
-                            <img src="img/Spotify.png" class="media" alt="" style="border-radius: 20px;width: 90%">
-                        </a>
-                    </div>
-                </div>
+
+        <div class="row">
+            <div class="col">
+                <a class="fa-solid fa-arrow-left fa-2x" href="/helvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
             </div>
         </div>
+        <br>
+        <h1 style="position: center">Definições</h1>
+        <hr>
+        <h4 style="position: center">Temperatura</h4>
+
+
+
+                    <input type="range" id="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
+
+                    <span class="rangeValue" id="rangeValue">24 ºC </span>
+
+        <br><br>
+        <hr>
+                <script>
+                    function rangeSlider(value){
+                        document.getElementById('rangeValue').innerHTML = value+" ºC" ;
+                    }
+                </script>
+        <h4 style="position: center">Volume</h4>
+        <br>
+
+        <i  class="fa-solid fa-volume-high fa-2x" style="margin-right: 10px; color: black"></i>
+        <label>
+            <input  type="range" class="range" value="0"  min="0" max="100" >
+        </label>
+        <hr>
+
     </div>
 
-</div>
+
+
 </body>
 
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
@@ -85,3 +92,4 @@
 </div>
 
 </html>
+
