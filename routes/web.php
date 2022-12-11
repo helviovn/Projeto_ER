@@ -13,24 +13,11 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/welcome', function () {
-    return view('welcome');});
+
 
 Route::get('/', function () {
     return view('sidebar');});
 
-//Rotas para login
-Route::get('/helvio', function () {
-    return view('homepage');});
-
-Route::get('/artur', function () {
-    return view('artur');});
-
-Route::get('/gustavo', function () {
-    return view('gustavo');});
-
-Route::get('/pedro', function () {
-    return view('pedro');});
 
 
 //Rotas para navegacao
@@ -97,7 +84,16 @@ Route::get('/nav2_artur', function () {
     return view('navegacao2_artur');});
 
 
-/*
+Route::get('/acidente', function () {
+    return view('acidente');});
+Route::get('/contactos1', function () {
+    return view('contactos1');});
+Route::get('/definicoes', function () {
+    return view('definicoes');});
+Route::get('/contactos2', function () {
+    return view('contactos2');});
+
+
 Route::get('/radio', function () {
     return view('radio');});
 
@@ -109,7 +105,6 @@ Route::get('/media2', function () {
 
 Route::get('/atender', function () {
     return view('atender');});
-*/
 
 
 Route::get('/appshelvio', function () {
