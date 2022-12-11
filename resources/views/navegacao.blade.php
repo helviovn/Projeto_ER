@@ -37,7 +37,7 @@
             <div class="row">
                 <div class="row">
                     <div class="col-3">
-                        <a class="fa-solid fa-arrow-left fa-2x" href="/homepage" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/helvionavegacao.blade.php" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                     </div>
                     <div class="col">
                         <h1 style="padding-top: 6%">Menu navegação</h1>

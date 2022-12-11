@@ -33,30 +33,33 @@
 
     <div class="ecra">
         <div class="container">
-            <div class="row" style="column-gap: 40px">
-                <div class="col-2">
-                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+            <div class="row" style="column-gap: 170px">
+                <div class="col-6" style="padding-right: 11%">
                     <br>
-                    <h3 style="text-align: center">Rádio</h3>
-                    <br><br><br><br>
-                    <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
-                    <br>
-                    <h3 style="text-align: center; opacity: .5">Media</h3>
-                    <br><br><br><br><br>
-                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
-                    <br>
-                    <h3 style="text-align: center">Definições</h3>
-                </div>
-                <div class="col" style="padding-right: 11%">
                     <div class="row">
-                        <h3 style="text-align: center"></h3>
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
-                        <br><br><br><br><br><br><br><br>
-                        <img src="img/RFM.jpg" class="radios" alt="" style="width: 24%">
-                        <img src="img/Mega.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/RR.png" class="radios" alt="" style="width: 24%">
-                        <img src="img/Comercial.png" class="radios" alt="" style="width: 24%">
+                        <a  style="color: inherit" href="/artur" class="fa-solid fa-arrow-left fa-2x"></a>
+                        <br><br>
+                        <h2 style="text-align: left">Estado dos componentes</h2>
+                        <br><br>
+                        <a class="logo">
+                            <img src="img/carroAvaria.png" class="media" alt="" style="border-radius: 20px;width: 130%">
+                        </a>
                     </div>
+                </div>
+                <div class="col-2">
+                    <br><br><br>
+                    <div class="veiculo veiculo-1">Bateria</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">Motor</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">Óleo</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">
+                        <p style="color: red" class="fa-solid fa-triangle-exclamation fa-2x"></p>
+                        Pneus
+                    </div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">TRAVÕES</div>
                 </div>
             </div>
         </div>

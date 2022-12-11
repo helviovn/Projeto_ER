@@ -22,7 +22,7 @@
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -30,13 +30,38 @@
             <div class="active"></div>
         </ul>
     </div>
-    <div class="container">
-        <div class="cold-md-6">
-            <div class="ecra">
 
+    <div class="ecra">
+        <div class="container">
+            <div class="row" style="column-gap: 170px">
+                <div class="col-6" style="padding-right: 11%">
+                    <br>
+                    <div class="row">
+                        <a  style="color: inherit" href="/artur" class="fa-solid fa-arrow-left fa-2x"></a>
+                        <br><br>
+                        <h2 style="text-align: left">Estado dos componentes</h2>
+                        <br><br>
+                        <a class="logo">
+                            <img src="img/carro.png" class="media" alt="" style="border-radius: 20px;width: 130%">
+                        </a>
+                    </div>
+                </div>
+                <div class="col-2">
+                    <br><br><br>
+                   <div class="veiculo veiculo-1">Bateria</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">Motor</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">Óleo</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">Pneus</div>
+                    <br><br>
+                    <div class="veiculo veiculo-1">TRAVÕES</div>
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 </body>
 

@@ -22,7 +22,7 @@
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -30,13 +30,41 @@
             <div class="active"></div>
         </ul>
     </div>
-    <div class="container">
-        <div class="cold-md-6">
-            <div class="ecra">
 
+    <div class="ecra">
+        <div class="container">
+            <div class="row" style="column-gap: 40px">
+                <div class="col-2">
+
+                    <i class="fa-solid fa-radio fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+                    <br><br>
+                    <h3 style="text-align: center">Rádio</h3>
+                    <br>
+                    <a class="fa-solid fa-music fa-4x" href="/media_artur" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
+                    <br>
+                    <h3 style="text-align: center; opacity: .5">Media</h3>
+                    <br><br>
+                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
+                    <br>
+                    <h3 style="text-align: center">Definições</h3>
+                </div>
+                <div class="col" style="padding-right: 11%">
+                        <br><br>
+                        <h3 style="text-align: center"></h3>
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/artur" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                        <br><br><br><br>
+                        <div class="row">
+                            <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px; width: 21%">
+                            <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
+                            <img src="img/RR.png" class="radios" alt="" style="width: 21%">
+                            <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px; width: 21%">
+                        </div>
+
+                </div>
             </div>
         </div>
     </div>
+
 </div>
 </body>
 

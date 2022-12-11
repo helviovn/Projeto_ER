@@ -22,7 +22,7 @@
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
             <li><a href="#"><p>Acidente</p></a></li>
@@ -37,11 +37,11 @@
                     <div class="col-2">
                         <i class="fa-solid fa-wifi fa-3x"></i>
                         <br><br><br>
-                        <i class="fa-solid fa-map-location fa-5x"></i>
+                        <a class="fa-solid fa-map-location fa-5x" href="/nav_artur" style="color:inherit"></a>
                         <br><br><br><br>
                         <i class="fa-solid fa-phone fa-5x"></i>
                         <br><br><br><br>
-                        <i class="fa-solid fa-radio fa-5x"></i>
+                        <a class="fa-solid fa-radio fa-5x" href="/radio_artur" style="color:inherit"></a>
                     </div>
 
                     <div class="col-6">
@@ -66,12 +66,12 @@
                                     <i class="fa-solid fa-greater-than fa-2x" style="color: white"></i>
                                 </div>
                                 <div class="col" style="margin-top: 1.5%">
-                                    <i class="fa-solid fa-ellipsis fa-2x" style="color: white"></i>
+                                    <a class="fa-solid fa-ellipsis fa-2x" style="color: white" href="/media_artur"></a>
                                 </div>
                                 <div class="row">&nbsp;&nbsp;&nbsp;&nbsp;</div>
                             </div>
                         </div>
-                        <img src="img/carro.png" class="carro" alt="" style="width: 100%">
+                        <a href="/veiculo_artur"><img src="img/carro.png" class="carro" alt="" style="width: 100%"></a>
                     </div>
 
 
@@ -112,7 +112,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="col">
-                                        <i class="fa-solid fa-grip fa-3x"></i>
+                                        <a class="fa-solid fa-grip fa-3x" href="/apps_artur" style="color:inherit"></a>
                                     </div>
                                 </div>
                             </div>

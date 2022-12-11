@@ -108,7 +108,7 @@
                                 </div>
                                 <div class="col">
                                     <div class="col">
-                                        <a class="fa-solid fa-grip fa-3x" href="/apps" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+                                        <a class="fa-solid fa-grip fa-3x" href="/appshelvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                                     </div>
                                 </div>
                             </div>

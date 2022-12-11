@@ -51,11 +51,20 @@ Route::get('/nav2', function () {
 Route::get('/radio', function () {
     return view('radio');});
 
+Route::get('/radio_artur', function () {
+    return view('radio_artur');});
+
 Route::get('/media', function () {
     return view('media');});
 
+Route::get('/media_artur', function () {
+    return view('media_artur');});
+
 Route::get('/media2', function () {
     return view('media2');});
+
+Route::get('/media2_artur', function () {
+    return view('media2_artur');});
 
 Route::get('/atender', function () {
     return view('atender');});
@@ -78,13 +87,17 @@ Route::get('/pedro', function () {
 Route::get('/nav', function () {
     return view('navegacao');});
 
+Route::get('/nav_artur', function () {
+    return view('navegacao_artur');});
+
 Route::get('/nav2', function () {
     return view('navegacao2');});
 
+Route::get('/nav2_artur', function () {
+    return view('navegacao2_artur');});
 
 
-
-
+/*
 Route::get('/radio', function () {
     return view('radio');});
 
@@ -96,19 +109,24 @@ Route::get('/media2', function () {
 
 Route::get('/atender', function () {
     return view('atender');});
-
-Route::get('/homepage', function () {
-    return view('homepage');});
-Route::get('/homepage2', function () {
-    return view('homepage2');});
+*/
 
 
-Route::get('/apps', function () {
-    return view('apps');});
+Route::get('/appshelvio', function () {
+    return view('apps_helvio');});
 
 Route::get('/veiculo', function () {
     return view('veiculo');});
 
 Route::get('/avaria', function () {
     return view('avaria');});
+
+Route::get('/apps_artur', function () {
+    return view('apps_artur');});
+
+Route::get('/veiculo_artur', function () {
+    return view('veiculo_artur');});
+
+Route::get('/avaria_artur', function () {
+    return view('avaria_artur');});
 

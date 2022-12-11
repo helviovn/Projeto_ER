@@ -17,22 +17,43 @@
     <div class="modal-dialog modal-dialog-centered" role="document">
         <div class="modal-content">
             <div class="modal-header">
-                <h5  class="modal-title" id="exampleModalLongTitle">A receber chamada de...</h5>
+                <h5  class="modal-title" id="exampleModalLongTitle">Em que local deseja parar?</h5>
                 <button type="button" class="close" data-dismiss="modal" aria-label="Close">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
-            <div class="modal-body" style="font-weight: bolder">
-                Leonardo (Wara)
+            <div class="input-group flex-nowrap">
+                <input selected stype="text" class="form-control" placeholder="Destino de Paragem"
+                       aria-label="Username" aria-describedby="addon-wrapping">
             </div>
             <div class="modal-footer">
-                <button type="button" class="btn btn-success" data-dismiss="modal">Atender</button>
+                <button type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
                 <button type="button" class="btn btn-danger" data-dismiss="modal">Recusar</button>
             </div>
         </div>
     </div>
 </div>
 
+<div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5  class="modal-title" id="exampleModalLongTitle">Qual o novo Destino?</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="input-group flex-nowrap">
+                <input selected stype="text" class="form-control" placeholder="Ex: Machico..."
+                       aria-label="Username" aria-describedby="addon-wrapping">
+            </div>
+            <div class="modal-footer">
+                <button type="button" class="btn btn-success" data-dismiss="modal">Confirmar</button>
+                <button type="button" class="btn btn-danger" data-dismiss="modal">Recusar</button>
+            </div>
+        </div>
+    </div>
+</div>
 
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
@@ -59,11 +80,11 @@
 
             <div class="row" style="column-gap: 40px">
                 <div class="col-2">
-                    <a  data-toggle="modal" data-target="#exampleModalCenter" class="fa-solid fa-plus fa-4x" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
+                    <a  data-toggle="modal" data-target="#exampleModalCenter" class="fa-solid fa-plus fa-4x" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto"></a>
                     <br>
-                    <h3 style="text-align: center; opacity: .5">Adicionar paragem</h3>
+                    <h3 style="text-align: center">Adicionar paragem</h3>
                     <br>
-                    <i class="fa-sharp fa-solid fa-map-location-dot fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
+                    <a data-toggle="modal" data-target="#exampleModal" class="fa-sharp fa-solid fa-map-location-dot fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></a>
                     <br>
                     <h3 style="text-align: center">Alterar destino</h3>
                     <br>
