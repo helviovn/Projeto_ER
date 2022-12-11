@@ -44,7 +44,7 @@
                     <a href="#">
                         <div class="contact-section">
                             <li class="list__item">
-                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Wara Bara</p>
+                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Afonso</p>
                             </li>
                             <i class="fas fa-phone"></i>
                         </div>
@@ -55,7 +55,7 @@
                     <a href="#">
                         <div class="contact-section">
                             <li class="list__item">
-                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Wara Bara</p>
+                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Marco</p>
                             </li>
                             <i class="fas fa-phone"></i>
                         </div>
@@ -63,14 +63,7 @@
 
                     <hr class="new5">
 
-                    <a href="#">
-                        <div class="contact-section">
-                            <li class="list__item">
-                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Wara Bara</p>
-                            </li>
-                            <i class="fas fa-phone"></i>
-                        </div>
-                    </a>
+
 
                 </ul>
             </div>

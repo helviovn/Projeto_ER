@@ -32,12 +32,38 @@
     </div>
 
     <div class="ecra">
-        <div class="container">
+
             <h1 style="position: center">Definições</h1>
-        </div>
+        <br>
+        <hr>
+        <h4 style="position: center">Temperatura</h4>
+
+
+
+                    <input type="range" id="range" class="range" value="24"  min="15" max="28" onmousemove="rangeSlider(this.value)">
+
+                    <span class="rangeValue" id="rangeValue">24 ºC </span>
+
+        <br><br>
+        <hr>
+                <script>
+                    function rangeSlider(value){
+                        document.getElementById('rangeValue').innerHTML = value+" ºC" ;
+                    }
+                </script>
+        <h4 style="position: center">Volume</h4>
+        <br>
+
+        <i  class="fa-solid fa-volume-high fa-2x" style="margin-right: 10px; color: black"></i>
+        <label>
+            <input  type="range" class="range" value="0"  min="0" max="100" >
+        </label>
+        <hr>
+
     </div>
 
-</div>
+
+
 </body>
 
 <div class="modal fade" id="exampleModalCenter" tabindex="-1" role="dialog" aria-labelledby="exampleModalCenterTitle" aria-hidden="true">

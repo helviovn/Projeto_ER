@@ -85,11 +85,12 @@ Route::get('/nav2', function () {
 
 Route::get('/acidente', function () {
     return view('acidente');});
-Route::get('/contactos', function () {
-    return view('contactos');});
+Route::get('/contactos1', function () {
+    return view('contactos1');});
 Route::get('/definicoes', function () {
     return view('definicoes');});
-
+Route::get('/contactos2', function () {
+    return view('contactos2');});
 
 
 Route::get('/radio', function () {
