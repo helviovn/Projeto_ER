@@ -14,7 +14,7 @@
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">

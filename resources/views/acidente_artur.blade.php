@@ -15,11 +15,11 @@
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
             <li><a href="#"><p></p></a></li>
             <li><a href="#"><p></p></a></li>
@@ -31,7 +31,7 @@
     <div class="ecra" >
         <div style=" vertical-align: center">
             <BR>
-        <h1 style="color: #fff; ">REAJA EM 20 SEGUNDOS</h1>
+            <h1 style="color: #fff; ">REAJA EM 20 SEGUNDOS</h1>
         </div>
 
         <h3 style="color: #fff">CASO CONTRÁRIO LIGAREMOS AOS SERVIÇOS DE URGÊNCIA</h3>
@@ -41,12 +41,12 @@
         </div>
         <div class="row">
 
-                <div style="text-align: center">
-                    <div class="col-6" id="app"></div>
-                    <form action="/helvio">
-                        <input type="submit" value="CLIQUE AQUI" class="botaoACI"  style=" width: 250px; border-radius: 30px">
-                    </form>
-                </div>
+            <div style="text-align: center">
+                <div class="col-6" id="app"></div>
+                <form action="/artur">
+                    <input type="submit" value="CLIQUE AQUI" class="botaoACI"  style=" width: 250px; border-radius: 30px">
+                </form>
+            </div>
             <div class="col-2">
                 <!--<button type="submit" class="btnPopup" onclick="openPopup()" >POPUP</button> -->
                 <div class="popup" id="popup">

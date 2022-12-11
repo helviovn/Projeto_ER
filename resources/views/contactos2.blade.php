@@ -11,18 +11,19 @@
 <body onload="realtimeClock()">
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
@@ -33,7 +34,7 @@
             <div class="headerXX">
 
 
-                <!--  ADD-CONTACT BUTTON/ICON -->
+                <a href="/artur" ><i class="fa-solid fa-arrow-left fa-2x"></i></a>
                 <a href="#"><i class="fas fa-plus-circle add"></i></a>
             </div>
 
@@ -44,7 +45,7 @@
                     <a href="#">
                         <div class="contact-section">
                             <li class="list__item">
-                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Afonso</p>
+                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Diogo Felgueiras</p>
                             </li>
                             <i class="fas fa-phone"></i>
                         </div>
@@ -55,7 +56,7 @@
                     <a href="#">
                         <div class="contact-section">
                             <li class="list__item">
-                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Marco</p>
+                                <p class="contact-name"><i class="fa-solid fa-user add space icon-gradient"></i>Leonardo Costa</p>
                             </li>
                             <i class="fas fa-phone"></i>
                         </div>

@@ -14,27 +14,32 @@
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
-
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
+                    <p>Avaria</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
 
     <div class="ecra">
 
-            <h1 style="position: center">Definições</h1>
+        <div class="row">
+            <div class="col">
+                <a class="fa-solid fa-arrow-left fa-2x" href="/helvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+            </div>
+        </div>
         <br>
+        <h1 style="position: center">Definições</h1>
         <hr>
         <h4 style="position: center">Temperatura</h4>
 

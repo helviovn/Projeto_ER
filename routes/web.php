@@ -86,10 +86,14 @@ Route::get('/nav2_artur', function () {
 
 Route::get('/acidente', function () {
     return view('acidente');});
+Route::get('/acidente_artur', function () {
+    return view('acidente_artur');});
 Route::get('/contactos1', function () {
     return view('contactos1');});
 Route::get('/definicoes', function () {
     return view('definicoes');});
+Route::get('/definicoes_artur', function () {
+    return view('definicoes_artur');});
 Route::get('/contactos2', function () {
     return view('contactos2');});
 

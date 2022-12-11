@@ -14,19 +14,19 @@
 <body onload="realtimeClock()">
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
             <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
@@ -39,7 +39,7 @@
                         <br><br><br>
                         <a class="fa-solid fa-map-location fa-5x" href="/nav_artur" style="color:inherit"></a>
                         <br><br><br><br>
-                        <i class="fa-solid fa-phone fa-5x"></i>
+                        <a class="fa-solid fa-phone fa-5x" href="/contactos2" style="color: black"></a>
                         <br><br><br><br>
                         <a class="fa-solid fa-radio fa-5x" href="/radio_artur" style="color:inherit"></a>
                     </div>
@@ -108,7 +108,7 @@
                             <br>
                             <div class="row" style="margin-top: 30%">
                                 <div class="col">
-                                    <i class="fa-solid fa-gear fa-3x"></i>
+                                    <a class="fa-solid fa-gear fa-3x" href="/definicoes_artur" style="color: black"></a>
                                 </div>
                                 <div class="col">
                                     <div class="col">

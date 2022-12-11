@@ -22,21 +22,10 @@
 <body>
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
-        <ul class="nav-links">
-            <li><a data-toggle="modal" data-target="#exampleModalCenter1" href="#"><i class="fa-solid fa-car-burst"></i>
-                    <p>Acidente</p></a></li>
-            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
-                    <p>Chamada</p></a></li>
-            <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
-                    <p>Avaria</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <div class="active"></div>
-        </ul>
+
     </div>
 
     <div class="ecra">
@@ -46,7 +35,7 @@
 
 
             <br><br><br><br>
-            <div class="row" style="padding-left: 14%">
+            <div class="row" style="padding-left: 22%">
                 <div class="col-2">
                     <div class="card">
                         <a class="fa-solid fa-user fa-8x" href="/helvio"></a>
@@ -57,12 +46,6 @@
                     <div class="card">
                         <a class="fa-solid fa-user fa-8x" href="/artur"></a>
                         <h3>Artur</h3>
-                    </div>
-                </div>
-                <div class="col-2">
-                    <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/gustavo"></a>
-                        <h3>Gustavo</h3>
                     </div>
                 </div>
                 <div class="col-2">

@@ -14,19 +14,19 @@
 <body onload="realtimeClock()">
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente_artur"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
-            <li><a data-toggle="modal" data-target="#exampleModalCenter" href="/atender"><i class="fa-solid fa-phone-volume"></i>
+            <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
             <li><a href="/avaria_artur"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
@@ -40,7 +40,7 @@
                 </div>
                 <div class="col-2" style="margin-left: -6%">
                     <br>
-                    <img class="radios" src="img/contactos.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto">
+                    <a href="/contactos2"><img class="radios" src="img/contactos.png"  alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></a>
                     <h3 style="text-align: center">Contactos</h3>
                     <br><br>
                     <a href="/veiculo_artur"> <img class="radios"  src="img/car.png" alt="" style="display: block; margin-left: auto; width: 80%; margin-right: auto"></img></a>

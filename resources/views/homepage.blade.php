@@ -15,19 +15,19 @@
 <body onload="realtimeClock()">
 <div class="header" style="background-image: url('img/Info.png');!important; display: block; background-size: cover;">
     <div class="side-nav">
-        <a href="#" class="logo">
+        <a href="/" class="logo">
             <img src="img/LOGO33.png" class="logo-img" alt="">
         </a>
         <ul class="nav-links">
-            <li><a href="#"><i class="fa-solid fa-car-burst"></i>
+            <li><a href="/acidente"><i class="fa-solid fa-car-burst"></i>
                     <p>Acidente</p></a></li>
             <li><a href="#" data-toggle="modal" data-target="#exampleModalCenter"><i class="fa-solid fa-phone-volume"></i>
                     <p>Chamada</p></a></li>
             <li><a href="/avaria"><i class="fa-solid fa-triangle-exclamation"></i>
                     <p>Avaria</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
-            <li><a href="#"><p>Acidente</p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
+            <li><a href="#"><p></p></a></li>
             <div class="active"></div>
         </ul>
     </div>
@@ -38,7 +38,7 @@
                     <div class="col-2"style="margin-top:2.2%">
                         <i class="fa-solid fa-wifi fa-3x"></i>
                         <br><br><br>
-                        <i class="fa-solid fa-phone fa-5x"></i>
+                        <a class="fa-solid fa-phone fa-5x" href="/contactos1" style="color: black"></a>
                         <br><br><br>
                         <a class="fa-solid fa-music fa-5x" href="/media" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
                         <br><br><br>
@@ -104,7 +104,7 @@
                             <br>
                             <div class="row" style="margin-top: 30%">
                                 <div class="col">
-                                    <i class="fa-solid fa-gear fa-3x"></i>
+                                    <a class="fa-solid fa-gear fa-3x" href="/definicoes" style="color: black"></a>
                                 </div>
                                 <div class="col">
                                     <div class="col">
