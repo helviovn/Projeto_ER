@@ -138,9 +138,9 @@
 }
 
 .range{
-    width: 400px;
+    width: 300px;
     height: 15px;
-appearance: none;
+    appearance: none;
     background: #edf1f4;
     outline: none;
     border-radius: 15px;
@@ -155,11 +155,11 @@ appearance: none;
     background: #fff;
     border-radius: 50%;
     border: 2px solid #0074cf;
-    box-shadow: -407px 0 0 400px #27a0ff;
+    box-shadow: -300px 0 0 300px #27a0ff!important;
     cursor: pointer;
 }
 
-.rangeValue{
+#rangeValue{
     position: relative;
     text-align: center;
     padding-left: 15px;
@@ -175,4 +175,104 @@ appearance: none;
     inset 5px 5px 10px rgba(0,0,0,0.1),
     inset -5px -5px 5px rgba(255,255,255,0.25);
 }
+
+
+
+/* ------------------- CONTACTOS ---------------- */
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto',sans-serif;
+}
+
+
+
+.headerXX{
+    display: flex;
+    justify-content: space-evenly;
+    color: #fff;
+    background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+    padding: 2em 0;
+    align-items: center;
+}
+
+.contact-search{
+    font-size: 1.2em;
+    padding:.3em .3em;
+    border-radius: 100px;
+    border:1px solid white;
+    outline: none;
+}
+
+
+.contacts-library{
+    background: #9ca4ad;
+}
+
+.add{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+i{
+    color: #fff;
+    font-size: 1.5em;
+}
+
+.contact-name{
+
+    color: black;
+    justify-content: space-evenly;
+    font-size: 1.2em;
+
+}
+
+
+ul{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+
+hr.new5 {
+    border: 2px solid black;
+}
+
+.list__item{
+    list-style: none;
+    padding: 1em;
+}
+
+
+
+.contact-section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 1.5em;
+    transition: 0.3s;
+}
+
+.contact-section:hover{
+    background-color: #45474d;
+}
+
+
+.space{
+    margin-right: 10px;
+}
+.icon-gradient{
+    background: linear-gradient(90deg, rgba(111,177,127,1) 0%, rgba(154,173,89,1) 100%);
+    border-radius: 100px;
+    font-size: 1.5em;
+    padding: .5em;
+}
+
+/* --------------------------------------------------------- */
+
+
+
 
