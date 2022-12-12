@@ -55,7 +55,7 @@
                     <label id="minutes">00</label>:
                     <label id="seconds">00</label> <br>
                     <img src="/img/soundwave.png" style="width: 200px">
-                    <form action="/helvio">
+                    <form action="/artur">
                         <button class="button" type="submit"  onclick="closePopup()">Desligar</button>
                     </form>
                 </div>
