@@ -49,7 +49,7 @@
                 <div class="col" style="padding-right: 11%">
                     <div class="row">
                         <h3 style="text-align: center"></h3>
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                        <a href="/helvio" class="fa-solid fa-arrow-left fa-2x" style="color: black"></a>
                         <br><br><br><br><br><br><br><br>
                         <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px;width: 21%">
                         <img src="img/Mega.png" class="radios" alt="" style="width: 21%">

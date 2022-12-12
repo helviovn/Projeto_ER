@@ -58,18 +58,18 @@
                     <img class="radios" src="img/gpsapple.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
                     <h3 style="text-align: center">Navegação</h3>
                     <br><br>
-                    <img class="radios" src="img/minecraft.png" alt="" style="display: block; margin-left: auto; margin-top: 10%; width: 40%; margin-right: auto"></img>
+                    <img  src="img/minecraft.png" alt="" style="display: block; margin-left: auto; margin-top: 10%; width: 40%; margin-right: auto"></img>
                     <h3 style="text-align: center">Minecraft</h3>
                 </div>
                 <div class="col-2">
                     <br>
-                    <img class="radios" src="img/twitter.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img>
+                    <img  src="img/twitter.png" alt="" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></img>
                     <h3 style="text-align: center">Twitter</h3>
                     <br><br>
-                    <img class="radios" src="img/discord.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
+                    <img  src="img/discord.png" alt="" style="display: block; margin-left: auto; width: 40%; margin-right: auto"></img>
                     <h3 style="text-align: center">Discord</h3>
                     <br>
-                    <img class="radios" src="img/youtube.png" alt="" style="display: block; margin-left: auto; margin-top: 5%; width: 100%; margin-right: auto"></img>
+                    <img  src="img/youtube.png" alt="" style="display: block; margin-left: auto; margin-top: 5%; width: 100%; margin-right: auto"></img>
                     <h3 style="text-align: center">Youtube</h3>
                 </div>
                 <div class="col-2">
@@ -98,7 +98,7 @@
                         </script>
                         <br><br><br><br><br><br><br><br><br><br><br><br>
                         <h3 style="padding-left: 22%">
-                            <i class="fa-solid fa-gear fa-3x"></i>
+                            <a href="/definicoes" class="fa-solid fa-gear fa-3x" style="color: black"></a>
                         </h3>
 
                     </div>
