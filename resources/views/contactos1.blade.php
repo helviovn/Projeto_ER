@@ -109,7 +109,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5  class="modal-title" id="exampleModalLongTitle">A receber chamada de...</h5>
-                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background-color: #fff; color: black">
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close" style="background-color: #fff; color: black; font-weight: bold;">
                     <span aria-hidden="true">&times;</span>
                 </button>
             </div>
