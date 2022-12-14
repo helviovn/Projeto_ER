@@ -40,7 +40,7 @@
                     <br><br>
                     <a class="fa-solid fa-music fa-4x" href="/media" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
-                    <h3 style="text-align: center; opacity: .5">Media</h3>
+                    <h3 style="text-align: center; opacity: .5">Música</h3>
                     <br><br><br>
                     <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes" style="color: black; display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
                     <br>
@@ -49,12 +49,15 @@
                 <div class="col" style="padding-right: 11%">
                     <div class="row">
                         <h3 style="text-align: center"></h3>
-                        <i class="fa-solid fa-arrow-left fa-2x"></i>
+                        <a class="fa-solid fa-arrow-left fa-2x" href="/helvio" style="color:inherit; display: block; width: 50%; margin-right: auto;"></a>
+
                         <br><br><br><br><br><br><br><br>
+                        <div class="row">
                         <img src="img/RFM.jpg" class="radios" alt="" style="border-radius: 30px;width: 21%">
                         <img src="img/Mega.png" class="radios" alt="" style="width: 21%">
                         <img src="img/RR.png" class="radios" alt="" style="width: 21%">
                         <img src="img/Comercial.png" class="radios" alt="" style="border-radius: 30px;width: 21%">
+                        </div>
                     </div>
                 </div>
             </div>

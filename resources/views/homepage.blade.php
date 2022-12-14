@@ -67,7 +67,7 @@
                         </div>
                         <br>
                         <br>
-                        <img src="img/uni.png" class="universidade" alt="" style="width: 100%">
+                        <a href="/nav"><img src="img/uni.png" class="universidade" alt="" style="width: 100%"></a>
                     </div>
 
 
