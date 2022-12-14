@@ -42,7 +42,7 @@
                     <br>
                     <a class="fa-solid fa-music fa-4x" href="/media_artur" style="color:inherit; display: block; margin-left: auto; width: 50%; margin-right: auto; opacity: .5"></a>
                     <br>
-                    <h3 style="text-align: center; opacity: .5">Media</h3>
+                    <h3 style="text-align: center; opacity: .5">Música</h3>
                     <br><br>
                     <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes_artur" style="color: black;display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
                     <br>

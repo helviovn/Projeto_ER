@@ -50,7 +50,7 @@
                 </div>
                 <div class="col-2">
                     <div class="card">
-                        <a class="fa-solid fa-user fa-8x" href="/pedro"></a>
+                        <a class="fa-solid fa-user fa-8x" href="#"></a>
                         <h3>Novo</h3>
                     </div>
                 </div>

@@ -41,7 +41,7 @@
                     <br><br>
                     <i class="fa-solid fa-music fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto"></i>
                     <br>
-                    <h3 style="text-align: center">Media</h3>
+                    <h3 style="text-align: center">Música</h3>
                     <br><br><br>
                     <a class="fa-sharp fa-solid fa-gears fa-4x" href="definicoes" style="color: black; display: block; margin-left: auto; width: 50%; margin-right: auto;"></a>
                     <br>

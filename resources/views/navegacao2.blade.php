@@ -88,9 +88,7 @@
                     <br>
                     <h3 style="text-align: center">Alterar destino</h3>
                     <br>
-                    <i class="fa-sharp fa-solid fa-gears fa-4x" style="display: block; margin-left: auto; width: 50%; margin-right: auto;"></i>
-                    <br>
-                    <h3 style="text-align: center">Definições</h3>
+
                 </div>
                 <div class="col" style="padding-right: 11%">
                     <div class="row">
